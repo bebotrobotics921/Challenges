@@ -29,7 +29,7 @@ img{
 
 
 
-/* Product title */
+/* Product title & content*/
 .title{
   display: flex;
   width: 200px;
@@ -38,16 +38,68 @@ img{
   letter-spacing: 2px;
   color: lightgrey;
   font-weight: 500;
+  margin-top: 0;
 }
 
 #detail{
-  margin-right:5px;
-  font-family: 'Anton', sans-serif;
+  margin:0px 5px 20px 0px;
+  font-family: 'Montserrat', sans-serif;
   line-height: 2;
   letter-spacing: 1px;
-  color: lightgrey;
-  font-size: 9px;
+  color: grey;
+  font-size: 8px;
+  font-weight: 700;
 }
 
 
-  
+#headline{
+  font-family: 'Fraunces', serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 5px 0px;
+}
+
+/*price & Discount font/spcing */
+.pricing{
+  display: inline;
+  height: 50px;
+}
+#price{
+  font-family: 'Fraunces', sans-serif;
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(5, 116, 5);
+
+}
+#discount{
+  display: inline;
+  margin:0;
+  padding-left: 10px;
+  font-size: 8px;
+  text-decoration: line-through;
+}
+
+/**/
+
+
+#btn_addtocart{
+  width:80px;
+  height: 20px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  background-color: rgb(27, 56, 27);
+  margin-top: 25px;
+  padding: 10px 60px 10px 60px;
+}
+
+
+
+
+
+footer{
+  display: flex;
+  flex-wrap:wrap;
+}
