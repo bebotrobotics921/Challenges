@@ -18,8 +18,8 @@ body{
 
 }
 img{
-  width: 250px;
-  height: 364px;
+  width: 100%;
+
   border-radius: 15px 0px 0px 15px;
 }
 #content{
@@ -81,9 +81,19 @@ img{
 }
 
 /**/
-
-
 #btn_addtocart{
+  width:80px;
+  height: 20px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  background-color: rgb(67, 121, 67);
+  margin-top: 25px;
+  padding: 10px 60px 10px 60px;
+}
+
+#btn_addtocart:hover{
   width:80px;
   height: 20px;
   color: white;
@@ -102,4 +112,11 @@ img{
 footer{
   display: flex;
   flex-wrap:wrap;
+}
+
+
+@media only screen and (max-width: 357px) {
+  body {
+    
+  }
 }
